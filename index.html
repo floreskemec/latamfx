@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Best Investment</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Best Investment Calculator</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Investment Details</h2>
+            <form>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date"><br><br>
+                <label for="budget">Budget:</label>
+                <input type="number" id="budget" name="budget"><br><br>
+                <button type="button" onclick="getInvestment()">Calculate</button>
+            </form>
+        </section>
+        <section id="result" style="display:none;">
+            <h2>Best Investment</h2>
+            <p id="currencies"></p>
+            <p id="amount"></p>
+            <p id="profit"></p>
+            <p id="percentage"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Best Investment Calculator</p>
+    </footer>
+
+    <script src="/app.js"></script>
+</body>
+</html>

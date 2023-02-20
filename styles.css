@@ -1,0 +1,262 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 16px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  /* Main content styles */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 24px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group select {
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+    appearance: none;
+  }
+  
+  .input-group input {
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    margin-top: 24px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  header p {
+    margin: 0;
+  }
+  
+  /* Form styles */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="date"],
+  form input[type="text"],
+  form input[type="number"],
+  form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Results styles */
+  .results {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .results h2 {
+    margin-top: 0;
+  }
+  
+  .results table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .results th,
+  .results td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .results th {
+    background-color: #f1f1f1;
+  }
+  
+  /* Error message styles */
+  .error {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    clear: both;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
